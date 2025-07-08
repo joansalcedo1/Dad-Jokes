@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dadJokes</title>
+    <style>
+        h1 {
+            align-content: center;
+            text-align: center;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #jokeCont {
+            align-content: center;
+            text-align: center;
+            background-color: aliceblue;
+            padding-left: 12rem;
+            padding-right: 12rem;
+        }
+        #joke{
+            background-color:rgb(169, 205, 236);
+            display: flex;
+            justify-content: center;
+            height: fit-content;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            border-radius: 10rem;
+        }
+        #jokeBtn{
+            border-radius: 10cm; 
+            width: 10rem;
+            height: 3rem;
+            border: none;
+            background-color: rgb(148, 148, 210);
+            color: white;
+        }
+        #jokeBtn:hover{
+            transition:all 0.2s ease-out;
+            color: black;
+            background-color: brown;
+            cursor: pointer;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Chistes malos</h1>
+    <div id="jokeCont">
+        <div id="joke">
+            <p>Presiona el boton para ver chistes</p>
+        </div>
+        <button id="jokeBtn">Obtener chistes</button>
+    </div>
+    
+    <script src="./dadJokes.js"></script>
+</body>
+
+</html>
